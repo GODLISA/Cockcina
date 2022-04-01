@@ -32,3 +32,8 @@
 .contenedor figure:hover > img{
     transform: scale(1.09);    
 }
+
+.flex{
+    display: flex;
+    gap: var(--gap, 1rem);
+}
