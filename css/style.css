@@ -1,12 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 .centrar{
-    align-items: center;
+    text-align: center;
+}
+.margintop{
+    padding-top: 80px;
 }
 .contenedor{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 40vh;
 }
 .contenedor figure{
     position: relative;
@@ -36,4 +46,10 @@
 .flex{
     display: flex;
     gap: var(--gap, 1rem);
+}
+.imgtop{
+    vertical-align: text-top;
+}
+.container h1{
+    font-size: 100px;
 }
