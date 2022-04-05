@@ -33,16 +33,9 @@
     height: 100%;
     transition: all 250ms ease-out;
 }
-.contenedor figure .capa{
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-.contenedor figure:hover > img{
+.contenedor figure:hover > a img{
     transform: scale(1.09);    
 }
-
 .flex{
     display: flex;
     gap: var(--gap, 1rem);
@@ -52,4 +45,7 @@
 }
 .container h1{
     font-size: 100px;
+}
+.breadcrumb {
+    margin: 0.75em 1em 0.25em 1em;
 }
