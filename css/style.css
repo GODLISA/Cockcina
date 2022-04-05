@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 .centrar{
     text-align: center;
@@ -46,6 +45,28 @@
 .container h1{
     font-size: 100px;
 }
+<<<<<<< HEAD
 .breadcrumb {
     margin: 0.75em 1em 0.25em 1em;
 }
+=======
+.categorias{
+    text-align: left;
+    display: inline-block;
+    width: -94%;
+    width: calc(100% - 1em);
+    max-width: 250px;
+    vertical-align: top;
+    line-height: 1.2;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin: 0 1em 25px 0;
+    padding: 0 0 30px 16px;
+}
+.categorias-home{
+    padding: 0 0 30px 16px;
+}
+.titulo{
+    text-decoration: black;important;
+}
+>>>>>>> 2bd468f78c3afa110f4fafaa67b21ac53d349186
