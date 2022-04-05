@@ -57,7 +57,7 @@
     display: inline-block;
     width: -94%;
     width: calc(100% - 1em);
-    max-width: 300px;
+    max-width: 250px;
     vertical-align: top;
     line-height: 1.2;
     border: 1px solid gray;
@@ -69,5 +69,5 @@
     padding: 0 0 30px 16px;
 }
 .titulo{
-    text-decoration: none;important;
+    text-decoration: black;important;
 }
