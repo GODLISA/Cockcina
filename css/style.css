@@ -96,7 +96,6 @@ ul{
     text-decoration: none;
 }
 .hubicoin{
-    background-color: transparent;
     border: none;
     display: inline-block;
     vertical-align: middle;
@@ -147,4 +146,7 @@ ul{
 article .intro {
     overflow: hidden;
     width: 100%;
+}
+.sub-contenedor{
+    
 }
