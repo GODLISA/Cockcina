@@ -82,3 +82,42 @@
 .fix{
     text-decoration: none;
 }
+.titulo-receta{
+    font-size: 1.5em;
+    line-height: 1.2;
+    font-weight: 600;
+    padding: 0 0.5em 0 0.5em;
+    margin: 0.2em 0 0.25em 0;
+    color: #333;
+    display: block;
+}
+.info_articulo {
+    font-size: .8em;
+    position: relative;
+    margin: 0.25em 1em 0 1em;
+}
+.info_articulo .autor {
+    position: relative;
+    padding: 0.5em 0 0 30px;
+}
+.info_articulo .img_autor {
+    border-radius: 50%;
+    background-color: #cff3f0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    top: 0.25em;
+    margin: 0!important;
+    z-index: 2;
+}
+.info_articulo .img_autor img {
+    width: 100%;
+    display: block;
+    margin: 0!important;
+}
+article .intro {
+    overflow: hidden;
+    width: 100%;
+}
