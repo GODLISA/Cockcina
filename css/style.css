@@ -45,11 +45,9 @@
 .container h1{
     font-size: 100px;
 }
-<<<<<<< HEAD
 .breadcrumb {
     margin: 0.75em 1em 0.25em 1em;
 }
-=======
 .categorias{
     text-align: left;
     display: inline-block;
@@ -69,4 +67,3 @@
 .titulo{
     text-decoration: black;important;
 }
->>>>>>> 2bd468f78c3afa110f4fafaa67b21ac53d349186
