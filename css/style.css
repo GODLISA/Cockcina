@@ -153,3 +153,19 @@ article .intro {
 .faux{
     padding: 0 1em 1em;
 }
+@media screen and (max-width:1000px){
+    .contenedor-imagenes{
+        width: 95%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 100%;
+    }
+}
+@media screen and (max-width:700px){
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 100%;
+    }
+}
