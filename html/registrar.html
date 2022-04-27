@@ -32,34 +32,46 @@
         </div>
     </nav>
     <div class="container">
-    <form action="/action_page.php">
-        <div class="container">
-          <h1>Registrate</h1>
-          <p>Rellena con tus datos y unete a WebosFritos.</p>
-          <hr>
-      
-          <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Ingresa Email" name="email" id="email" required>
-      
-          <label for="psw"><b>Contraseña</b></label>
-          <input type="password" placeholder="Introduzca contraseña" name="psw" id="psw" required>
-      
-          <label for="psw-repeat"><b>Repetir contraseña</b></label>
-          <input type="password" placeholder="Repita su contraseña" name="psw-repeat" id="psw-repeat" required>
-          <hr>
-          <p>Creando una cuenta aceptas nuestros <a href="#">Terminos y condiciones</a>.</p>
-      
-          <button type="submit" class="registerbtn">Registrar</button>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form action="#" class="margintop required formu" method="POST" style="border-color: black; border-radius: 23px;">
+                    <fieldset>
+                        <legend class="centrar">Aqui comienza tu viaje!</legend>
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input required type="text" class="form-control" name="nombre" id="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido</label>
+                            <input required type="text" class="form-control" name="apellido" id="2">
+                        </div>
+                        <div class="form-group">
+                            <label for="fnacimiento">Fecha nacimiento</label>
+                            <input required type="date" class="form-control" name="fnacimiento" id="3">
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo electronico</label>
+                            <input required type="email" class="form-control" name="correo" id="4">
+                        </div>
+                        <div class="form-group">
+                            <label for="contraseña">Contraseña</label>
+                            <input required type="password" class="form-control" name="contraseña" id="5">
+                        </div>
+                        <div class="form-group">
+                            <br>
+                            <input type="submit" class="btn btn-primary">
+                            <input type="reset" class="btn btn-secondary">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-2"></div>
         </div>
-        
-        <div class="container signin">
-          <p>Ya tienes una cuenta?<a href="iniciarsesion.html">Iniciar sesion.</a>.</p>
-        </div>
-      </form>
-      
+
     </div>
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
